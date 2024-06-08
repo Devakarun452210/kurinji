@@ -3,6 +3,7 @@ import "../App.css";
 import logoDark from "../assets/logo-dark.png";
 import logoWhite from "../assets/logo-white.png";
 import coffee from "../assets/coffee.png";
+import menu from "../assets/menu.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,9 @@ const Header = () => {
             </a>
           </div>
           <div className="nav__menu__btn" id="menu-btn" onClick={toggleMenu}>
-            <i className={isOpen ? "ri-close-line" : "ri-menu-line"}></i>
+            <i className={isOpen ? "ri-close-line" : "ri-menu-line"}>
+              <img src={menu} alt="" />
+            </i>
           </div>
         </div>
         <ul className={isOpen ? "nav__links open" : "nav__links"}>
