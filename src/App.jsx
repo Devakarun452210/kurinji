@@ -13,7 +13,7 @@ function App() {
       <Banner />
       <Order />
       <Event />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
