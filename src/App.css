@@ -260,16 +260,16 @@ nav {
 }
 
 .order__card {
-  height: fit-content;
+  height: 300px;
   padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
   transition: 0.3s;
 }
 
-.order__card:hover {
+/* .order__card:hover {
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .order__card img {
   max-width: 250px;

@@ -51,7 +51,7 @@ const Header = () => {
           <img src={coffee} alt="header" />
         </div>
         <div className="header__content">
-          <h2>IT IS GOOD TIME FOR THE GREATE TASTE OF TEA</h2>
+          <h2>IT IS GOOD TIME FOR THE GREAT TASTE OF TEA</h2>
           <h1>
             TEA
             <br />
