@@ -115,6 +115,14 @@ nav {
   cursor: pointer;
 }
 
+.ri-close-line > img{
+  object-fit: cover;
+}
+
+.ri-menu-line > img{
+  object-fit: cover;
+}
+
 .nav__links {
   position: absolute;
   top: 60px;
